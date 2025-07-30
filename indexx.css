@@ -1,0 +1,133 @@
+
+.buttons{
+    height: 200 px;
+    width:150px ;
+    border-radius:5px;
+    border:solid 1px #1f2328;
+    background-color: rgb(0, 123, 255);
+    font-weight: 600;
+    font-size: xx-large;
+    
+     margin-bottom:5px;
+    overflow:hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+  
+}
+.buttons:hover{
+     height: 200 px;
+    border:solid 1px #1f2328;
+    width:150px ;
+    border-radius:5px;
+     
+    background-color:#0d1117;
+    font-weight: 600;
+    font-size: xx-large;
+    color:rgb(0, 123, 255);
+     margin-bottom:5px;
+    overflow:hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top:10px;
+    transition-duration:0.35s;
+
+}
+
+.childsss{
+    
+       height: 40px;
+    width:350px ;
+    border-radius:3px;
+    border:solid 1px #333333;
+   
+    padding-bottom: 9px;
+    padding-top: 15px;
+    
+    font-weight: 600;
+    font-size: xx-large;
+    color:rgb(0, 123, 255);
+    background-color:#0d1117;
+    display:inline-block;
+    font-family:monospace;
+    margin-bottom: 5px;
+    padding-left:10px;
+   transform: translateY(4px);
+
+}
+.childsss:hover{
+    height: 40px;
+    width:350px ;
+    border-radius:3px;
+    border:solid 1px #333333;
+    padding: auto;
+    padding-top: 15px;
+    
+    font-weight: 600;
+    font-size: xx-large;
+    color:black;
+    background-color:rgb(0, 123, 255);
+    display:inline-block;
+    font-family:monospace;
+    margin-bottom: 5px;
+    padding-left:10px;
+    
+     transition-duration:0.35s;
+    
+
+}
+
+.btn-child{
+    background-color: #0d1117;
+   font-size: xx-large;
+   border:none;
+   transform: translateY(10px);
+   margin-left:5px;
+   opacity:0.5;
+   
+}
+.btn-child:hover{
+      background-color: #0d1117;
+   font-size: xx-large;
+   border:none;
+   
+   scale:1.1;
+   opacity:1;
+   transition-duration:500ms;
+   
+
+}
+.timer{
+     transform:translateY(5px);
+    width:90px;
+    height:50px;
+    font-size: x-large;
+   margin-left: 20px;
+    color:white;
+    background-color:#0d1117;
+    border:solid 1px #1f2328;
+    border-radius: 3px;
+    font-family: monospace;
+    font-weight: 700;
+
+}
+.clock{
+    background-color: inherit;
+    width: 300px;
+    height:50px;
+    color:#5d636b;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    right:0;
+    display:block;
+    font-size: x-large;
+
+}
+.header{
+    margin-top:20px;
+    margin-bottom:20px;
+    font-weight: bold;
+    font-size: xx-large;
+}
+.removed{
+    opacity:0;
+    transition-duration:500ms;
+}
