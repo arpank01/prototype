@@ -7,7 +7,7 @@ function addchild() {
     let name;
     function addname(){
      name=prompt("Enter name of the subject ")
-    if(name==="" || null){
+    if(name==="" || name===null){
      alert("Name shouldn't be empty")
         addname()
     }
@@ -96,10 +96,10 @@ pause.addEventListener("click", pausing)
             if (t.second <= 59) {
                 t.second++;
             } else {
-
+                t.second=0;
                 if (t.minute <= 59) {
                     t.minute++;
-                    t.second= 0;
+                    
                 } else {
                     t.hours++
                     t.second = 0
